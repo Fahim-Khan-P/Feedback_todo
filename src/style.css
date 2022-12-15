@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: gainsboro;
+}
+
+section {
+  width: 100vw;
+  height: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ul {
+  background-color: white;
+  padding: 14px;
+  border-radius: 10px;
+  box-shadow: 5px 3px 2px 2px black;
+  margin-top: 20vh;
+}
+
+.fa-trash:hover {
+  color: red;
+  font-size: 20px;
+  transition-property: font-size, color;
+  transition-duration: 0.4s;
+}
+
+.fas:hover {
+  cursor: pointer;
+}
+
+.editedText {
+  border: none;
+}
+
+.editedText:focus {
+  border: none;
+}
+
+.dynamicList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 50vh;
+}
+
+li {
+  border-bottom: 1px solid rgb(103, 103, 103);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#input {
+  border: none;
+  font-style: italic;
+  width: 100%;
+}
+
+#header {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#clear {
+  text-align: center;
+  color: grey;
+}
+
+#clear:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: brown;
+  font-size: large;
+  transition-property: font-size;
+  transition-duration: 0.8s;
+}
